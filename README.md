@@ -32,7 +32,7 @@
    <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Programming-Books/blob/master/cpl(22).pdf" style="text-decoration:none;">Build Your Own Lisp: Learn C and build your own programming language in under 1000 lines of code!</a></b></li>
 
  <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Programming-Books/blob/master/cpl(23).pdf" style="text-decoration:none;">A Book on C: Programming in C</a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Programming-Books/blob/master/cpl(24).pdf" style="text-decoration:none;">Programming embedded systems in C and C++</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Programming-Books/blob/master/cpl(24).pdf" style="text-decoration:none;">C For Dummies</a></b></li>
 
 
 </ul>
