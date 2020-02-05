@@ -52,7 +52,7 @@
 <li class="toclevel-1 tocsection-24"><a href="#Uses"><span class="toctext">Uses</span></a></li>
 <li class="toclevel-1 tocsection-25"><a href="#Related_languages"><span class="toctext">Related languages</span></a></li>
  <li class="toclevel-1 tocsection-25"><a href="#Books"><span class="toctext">Books</span></a></li>   
-    
+   <li class="toclevel-1 tocsection-25"><a href="#Papers"><span class="toctext">Papers</span></a></li>    
 </ul>
 
 
@@ -538,4 +538,48 @@ int main(void)
 
 
 </ul>
+
+
+</br>
+
+<h2><span id="Papers" class="mw-headline">Papers</span></h2>
+
+
+<ul>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Programming-Books/blob/master/cibm(1).pdf" style="text-decoration:none;">Research and Development of C Language Programming Experiment Assistant Management Platform Based on Hybrid Architecture</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Programming-Books/blob/master/cibm(2).pdf" style="text-decoration:none;">Four steps to teaching C programming</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Programming-Books/blob/master/cibm(3).pdf" style="text-decoration:none;">The Development of the C Language</a></b></li>
+                               
+<li><b><a target="_blank" href="https://github.com/manjunath5496/C-Programming-Books/blob/master/cibm(4).pdf" style="text-decoration:none;">Language Modernization from C to JAVA</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Programming-Books/blob/master/cibm(5).pdf" style="text-decoration:none;">SomeWere Meant for C </a></b></li>
+                                
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Programming-Books/blob/master/cibm(6).pdf" style="text-decoration:none;">The Evolution of C Programming Practices: A Study of the Unix Operating System 1973–2015</a></b></li>
+   <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Programming-Books/blob/master/cibm(7).pdf" style="text-decoration:none;">Programming languages - C - Extensions to support embedded processors</a></b></li>                        
+<li><b><a target="_blank" href="https://github.com/manjunath5496/C-Programming-Books/blob/master/cibm(8).pdf" style="text-decoration:none;">Programming languages — C</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Programming-Books/blob/master/cibm(9).pdf" style="text-decoration:none;">A Research UNIX Reader: Annotated Excerpts from the Programmer’s Manual,
+1971-1986</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Programming-Books/blob/master/cibm(10).pdf" style="text-decoration:none;">Sibling Rivalry: C and C++</a></b></li>
+								
+								</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                 
