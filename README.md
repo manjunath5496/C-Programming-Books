@@ -170,22 +170,26 @@
 <p>In early versions of C, only functions that return types other than&nbsp;<code>int</code>&nbsp;must be declared if used before the function definition; functions used without prior declaration were presumed to return type&nbsp;<code>int</code>.</p>
 <p>For example:</p>
 <div class="mw-highlight mw-content-ltr" dir="ltr">
-<pre><span class="kt">long</span> <span class="nf">some_function</span><span class="p">();</span>
-<span class="cm">/* int */</span> <span class="n">other_function</span><span class="p">();</span>
+    
+    
+```C language
+long some_function();
+/* int */ other_function();
 
-<span class="cm">/* int */</span> <span class="n">calling_function</span><span class="p">()</span>
-<span class="p">{</span>
-    <span class="kt">long</span> <span class="n">test1</span><span class="p">;</span>
-    <span class="k">register</span> <span class="cm">/* int */</span> <span class="n">test2</span><span class="p">;</span>
+/* int */ calling_function()
+{
+    long test1;
+    register /* int */ test2;
 
-    <span class="n">test1</span> <span class="o">=</span> <span class="n">some_function</span><span class="p">();</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">test1</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span>
-          <span class="n">test2</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-    <span class="k">else</span>
-          <span class="n">test2</span> <span class="o">=</span> <span class="n">other_function</span><span class="p">();</span>
-    <span class="k">return</span> <span class="n">test2</span><span class="p">;</span>
-<span class="p">}</span>
-</pre>
+    test1 = some_function();
+    if (test1 > 0)
+          test2 = 0;
+    else
+          test2 = other_function();
+    return test2;
+}
+```
+
 </div>
 <p>The&nbsp;<code>int</code>&nbsp;type specifiers which are commented out could be omitted in K&amp;R C, but are required in later standards.</p>
 <p>Since K&amp;R function declarations did not include any information about function arguments, function parameter&nbsp;<a class="mw-redirect" title="Type checking" href="https://en.wikipedia.org/wiki/Type_checking">type checks</a>&nbsp;were not performed, although some compilers would issue a warning message if a local function was called with the wrong number of arguments, or if multiple calls to an external function used different numbers or types of arguments. Separate tools such as Unix's&nbsp;<a class="mw-redirect" title="Lint programming tool" href="https://en.wikipedia.org/wiki/Lint_programming_tool">lint</a>&nbsp;utility were developed that (among other things) could check for consistency of function use across multiple source files.</p>
