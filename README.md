@@ -5,51 +5,54 @@
 <p>&nbsp;</p>
 
 
+
+
 <div class="toctitle" dir="ltr" lang="en">
 <h2>Contents</h2>
 <label class="toctogglelabel" for="toctogglecheckbox"></label></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="toctext">Overview</span></a>
 <ul>
-<li class="toclevel-2 tocsection-2"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Relations_to_other_languages"><span class="toctext">Relations to other languages</span></a></li>
+<li class="toclevel-2 tocsection-2"><a href="#Relations_to_other_languages"><span class="toctext">Relations to other languages</span></a></li>
 </ul>
 </li>
-<li class="toclevel-1 tocsection-3"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#History"><span class="toctext">History</span></a>
+<li class="toclevel-1 tocsection-3"><a href="#History"><span class="toctext">History</span></a>
 <ul>
-<li class="toclevel-2 tocsection-4"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Early_developments"><span class="toctext">Early developments</span></a></li>
-<li class="toclevel-2 tocsection-5"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#K&amp;R_C"><span class="toctext">K&amp;R C</span></a></li>
-<li class="toclevel-2 tocsection-6"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#ANSI_C_and_ISO_C"><span class="toctext">ANSI C and ISO C</span></a></li>
-<li class="toclevel-2 tocsection-7"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#C99"><span class="toctext">C99</span></a></li>
-<li class="toclevel-2 tocsection-8"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#C11"><span class="toctext">C11</span></a></li>
-<li class="toclevel-2 tocsection-9"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#C18"><span class="toctext">C18</span></a></li>
-<li class="toclevel-2 tocsection-10"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Embedded_C"><span class="toctext">Embedded C</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Early_developments"><span class="toctext">Early developments</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#K&amp;R_C"><span class="toctext">K&amp;R C</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#ANSI_C_and_ISO_C"><span class="toctext">ANSI C and ISO C</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#C99"><span class="toctext">C99</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#C11"><span class="toctext">C11</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#C18"><span class="toctext">C18</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Embedded_C"><span class="toctext">Embedded C</span></a></li>
 </ul>
 </li>
-<li class="toclevel-1 tocsection-11"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Syntax"><span class="toctext">Syntax</span></a>
+<li class="toclevel-1 tocsection-11"><a href="#Syntax"><span class="toctext">Syntax</span></a>
 <ul>
-<li class="toclevel-2 tocsection-12"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Character_set"><span class="toctext">Character set</span></a></li>
-<li class="toclevel-2 tocsection-13"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Reserved_words"><span class="toctext">Reserved words</span></a></li>
-<li class="toclevel-2 tocsection-14"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Operators"><span class="toctext">Operators</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Character_set"><span class="toctext">Character set</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Reserved_words"><span class="toctext">Reserved words</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Operators"><span class="toctext">Operators</span></a></li>
 </ul>
 </li>
-<li class="toclevel-1 tocsection-15"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#%22Hello,_world%22_example"><span class="toctext">"Hello, world" example</span></a></li>
-<li class="toclevel-1 tocsection-16"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Data_types"><span class="toctext">Data types</span></a>
+<li class="toclevel-1 tocsection-15"><a href="#%22Hello,_world%22_example"><span class="toctext">"Hello, world" example</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#Data_types"><span class="toctext">Data types</span></a>
 <ul>
-<li class="toclevel-2 tocsection-17"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Pointers"><span class="toctext">Pointers</span></a></li>
-<li class="toclevel-2 tocsection-18"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Arrays"><span class="toctext">Arrays</span></a></li>
-<li class="toclevel-2 tocsection-19"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Array%E2%80%93pointer_interchangeability"><span class="toctext">Array&ndash;pointer interchangeability</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Pointers"><span class="toctext">Pointers</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Arrays"><span class="toctext">Arrays</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#Array%E2%80%93pointer_interchangeability"><span class="toctext">Array&ndash;pointer interchangeability</span></a></li>
 </ul>
 </li>
-<li class="toclevel-1 tocsection-20"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Memory_management"><span class="toctext">Memory management</span></a></li>
-<li class="toclevel-1 tocsection-21"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Libraries"><span class="toctext">Libraries</span></a>
+<li class="toclevel-1 tocsection-20"><a href="#Memory_management"><span class="toctext">Memory management</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#Libraries"><span class="toctext">Libraries</span></a>
 <ul>
-<li class="toclevel-2 tocsection-22"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#File_handling_and_streams"><span class="toctext">File handling and streams</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#File_handling_and_streams"><span class="toctext">File handling and streams</span></a></li>
 </ul>
 </li>
-<li class="toclevel-1 tocsection-23"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Language_tools"><span class="toctext">Language tools</span></a></li>
-<li class="toclevel-1 tocsection-24"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Uses"><span class="toctext">Uses</span></a></li>
-<li class="toclevel-1 tocsection-25"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Related_languages"><span class="toctext">Related languages</span></a></li>
+<li class="toclevel-1 tocsection-23"><a href="#Language_tools"><span class="toctext">Language tools</span></a></li>
+<li class="toclevel-1 tocsection-24"><a href="#Uses"><span class="toctext">Uses</span></a></li>
+<li class="toclevel-1 tocsection-25"><a href="#Related_languages"><span class="toctext">Related languages</span></a></li>
 </ul>
+
 
 
 <p>&nbsp;</p>
