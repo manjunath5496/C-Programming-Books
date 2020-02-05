@@ -51,6 +51,8 @@
 <li class="toclevel-1 tocsection-23"><a href="#Language_tools"><span class="toctext">Language tools</span></a></li>
 <li class="toclevel-1 tocsection-24"><a href="#Uses"><span class="toctext">Uses</span></a></li>
 <li class="toclevel-1 tocsection-25"><a href="#Related_languages"><span class="toctext">Related languages</span></a></li>
+ <li class="toclevel-1 tocsection-25"><a href="#Books"><span class="toctext">Books</span></a></li>   
+    
 </ul>
 
 
@@ -493,9 +495,9 @@ int main(void)
 <p>The&nbsp;<a title="C++" href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a>&nbsp;programming language was devised by&nbsp;<a title="Bjarne Stroustrup" href="https://en.wikipedia.org/wiki/Bjarne_Stroustrup">Bjarne Stroustrup</a>&nbsp;as an approach to providing&nbsp;<a title="Object-oriented programming" href="https://en.wikipedia.org/wiki/Object-oriented_programming">object-oriented</a>&nbsp;functionality with a C-like syntax.&nbsp;C++ adds greater typing strength, scoping, and other tools useful in object-oriented programming, and permits&nbsp;<a title="Generic programming" href="https://en.wikipedia.org/wiki/Generic_programming">generic programming</a>&nbsp;via templates. Nearly a superset of C, C++ now supports most of C, with&nbsp;<a title="Compatibility of C and C++" href="https://en.wikipedia.org/wiki/Compatibility_of_C_and_C%2B%2B">a few exceptions</a>.</p>
 <p><a title="Objective-C" href="https://en.wikipedia.org/wiki/Objective-C">Objective-C</a>&nbsp;was originally a very "thin" layer on top of C, and remains a strict superset of C that permits object-oriented programming using a hybrid dynamic/static typing paradigm. Objective-C derives its syntax from both C and&nbsp;<a title="Smalltalk" href="https://en.wikipedia.org/wiki/Smalltalk">Smalltalk</a>: syntax that involves preprocessing, expressions, function declarations, and function calls is inherited from C, while the syntax for object-oriented features was originally taken from Smalltalk.</p>
 <p>In addition to&nbsp;<a title="C++" href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a>&nbsp;and&nbsp;<a title="Objective-C" href="https://en.wikipedia.org/wiki/Objective-C">Objective-C</a>,&nbsp;<a title="Ch (computer programming)" href="https://en.wikipedia.org/wiki/Ch_(computer_programming)">Ch</a>,&nbsp;<a title="Cilk" href="https://en.wikipedia.org/wiki/Cilk">Cilk</a>&nbsp;and&nbsp;<a title="Unified Parallel C" href="https://en.wikipedia.org/wiki/Unified_Parallel_C">Unified Parallel C</a>&nbsp;are nearly supersets of C.</p>
+</br>
 
-
-
+<h2><span id="Books" class="mw-headline">Books</span></h2>
 
 
 <ul>
