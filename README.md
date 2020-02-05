@@ -114,7 +114,45 @@
 
 
 
-
+<h2><span id="History" class="mw-headline">History</span></h2>
+<h3><span id="Early_developments" class="mw-headline">Early developments</span></h3>
+<table class="wikitable floatright" style="width: 175px;"><caption>Timeline of language development</caption>
+<tbody>
+<tr>
+<th style="width: 61px;">Year</th>
+<th style="width: 100px;">C Standard</th>
+</tr>
+<tr>
+<td style="width: 61px;">1972</td>
+<td style="width: 100px;">Birth</td>
+</tr>
+<tr>
+<td style="width: 61px;">1978</td>
+<td style="width: 100px;">K&amp;R C</td>
+</tr>
+<tr>
+<td style="width: 61px;">1989/1990</td>
+<td style="width: 100px;">ANSI C and ISO C</td>
+</tr>
+<tr>
+<td style="width: 61px;">1999</td>
+<td style="width: 100px;">C99</td>
+</tr>
+<tr>
+<td style="width: 61px;">2011</td>
+<td style="width: 100px;">C11</td>
+</tr>
+<tr>
+<td style="width: 61px;">2017/2018</td>
+<td style="width: 100px;">C18</td>
+</tr>
+</tbody>
+</table>
+<p>The origin of C is closely tied to the development of the&nbsp;<a title="Unix" href="https://en.wikipedia.org/wiki/Unix">Unix</a>&nbsp;operating system, originally implemented in&nbsp;<a title="Assembly language" href="https://en.wikipedia.org/wiki/Assembly_language">assembly language</a>&nbsp;on a&nbsp;<a title="PDP-7" href="https://en.wikipedia.org/wiki/PDP-7">PDP-7</a>&nbsp;by Dennis Ritchie and Ken Thompson, incorporating several ideas from colleagues. Eventually, they decided to port the operating system to a&nbsp;<a title="PDP-11" href="https://en.wikipedia.org/wiki/PDP-11">PDP-11</a>. The original PDP-11 version of Unix was also developed in assembly language.</p>
+<p>Thompson desired a programming language to make utilities for the new platform. At first, he tried to make a&nbsp;<a title="Fortran" href="https://en.wikipedia.org/wiki/Fortran">Fortran</a>&nbsp;compiler, but soon gave up the idea. Instead, he created a cut-down version of the recently developed&nbsp;<a title="BCPL" href="https://en.wikipedia.org/wiki/BCPL">BCPL</a>&nbsp;<a class="mw-redirect" title="Systems programming language" href="https://en.wikipedia.org/wiki/Systems_programming_language">systems programming language</a>. The official description of BCPL was not available at the time,&nbsp;and Thompson modified the syntax to be less wordy, producing the similar but somewhat simpler&nbsp;<a title="B (programming language)" href="https://en.wikipedia.org/wiki/B_(programming_language)">B</a>.&nbsp;However, few utilities were ultimately written in B because it was too slow, and B could not take advantage of PDP-11 features such as&nbsp;<a title="Byte" href="https://en.wikipedia.org/wiki/Byte">byte</a>&nbsp;addressability.</p>
+<p>In 1972, Ritchie started to improve B, which resulted in creating a new language C.&nbsp;The C compiler and some utilities made with it were included in&nbsp;<a class="mw-redirect" title="Version 2 Unix" href="https://en.wikipedia.org/wiki/Version_2_Unix">Version 2 Unix</a>.</p>
+<p>At&nbsp;<a class="mw-redirect" title="Version 4 Unix" href="https://en.wikipedia.org/wiki/Version_4_Unix">Version 4 Unix</a>, released in November 1973, the&nbsp;<a title="Unix" href="https://en.wikipedia.org/wiki/Unix">Unix</a>&nbsp;<a title="Kernel (operating system)" href="https://en.wikipedia.org/wiki/Kernel_(operating_system)">kernel</a>&nbsp;was extensively re-implemented in C.&nbsp;By this time, the C language had acquired some powerful features such as&nbsp;<code>struct</code>&nbsp;types.</p>
+<p>Unix was one of the first operating system kernels implemented in a language other than&nbsp;<a title="Assembly language" href="https://en.wikipedia.org/wiki/Assembly_language">assembly</a>. Earlier instances include the&nbsp;<a title="Multics" href="https://en.wikipedia.org/wiki/Multics">Multics</a>&nbsp;system (which was written in&nbsp;<a title="PL/I" href="https://en.wikipedia.org/wiki/PL/I">PL/I</a>) and&nbsp;<a title="Burroughs MCP" href="https://en.wikipedia.org/wiki/Burroughs_MCP">Master Control Program</a>&nbsp;(MCP) for the&nbsp;<a title="Burroughs large systems" href="https://en.wikipedia.org/wiki/Burroughs_large_systems">Burroughs B5000</a>&nbsp;(which was written in&nbsp;<a title="ALGOL" href="https://en.wikipedia.org/wiki/ALGOL">ALGOL</a>) in 1961. In around 1977, Ritchie and&nbsp;<a title="Stephen C. Johnson" href="https://en.wikipedia.org/wiki/Stephen_C._Johnson">Stephen C. Johnson</a>&nbsp;made further changes to the language to facilitate portability of the Unix operating system. Johnson's&nbsp;<a title="Portable C Compiler" href="https://en.wikipedia.org/wiki/Portable_C_Compiler">Portable C Compiler</a>&nbsp;served as the basis for several implementations of C on new platforms.</p>
 
 
 
