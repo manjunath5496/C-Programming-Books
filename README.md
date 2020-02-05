@@ -237,6 +237,192 @@ long some_function();
 
 
 
+<h3><span id="Reserved_words" class="mw-headline">Reserved words</span></h3>
+<p>C89 has 32 reserved words, also known as keywords, which are the words that cannot be used for any purposes other than those for which they are predefined:</p>
+<div>
+<table class="multicol">
+<tbody>
+<tr>
+<td>
+<dl>
+<dd><code>auto</code></dd>
+<dd><code>break</code></dd>
+<dd><code>case</code></dd>
+<dd><code>char</code></dd>
+<dd><code>const</code></dd>
+<dd><code>continue</code></dd>
+<dd><code>default</code></dd>
+<dd><code>do</code></dd>
+</dl>
+<p>&nbsp;</p>
+</td>
+<td>
+<dl>
+<dd><code><a class="mw-redirect" title="Double precision" href="https://en.wikipedia.org/wiki/Double_precision">double</a></code></dd>
+<dd><code>else</code></dd>
+<dd><code><a title="Enumerated type" href="https://en.wikipedia.org/wiki/Enumerated_type">enum</a></code></dd>
+<dd><code><a title="External variable" href="https://en.wikipedia.org/wiki/External_variable">extern</a></code></dd>
+<dd><code><a class="mw-redirect" title="Floating point" href="https://en.wikipedia.org/wiki/Floating_point">float</a></code></dd>
+<dd><code><a title="For loop" href="https://en.wikipedia.org/wiki/For_loop">for</a></code></dd>
+<dd><code><a title="Goto" href="https://en.wikipedia.org/wiki/Goto">goto</a></code></dd>
+<dd><code>if</code></dd>
+</dl>
+<p>&nbsp;</p>
+</td>
+<td>
+<dl>
+<dd><code>int</code></dd>
+<dd><code><a class="mw-redirect" title="Long integer" href="https://en.wikipedia.org/wiki/Long_integer">long</a></code></dd>
+<dd><code><a class="mw-redirect" title="Register (C programming language)" href="https://en.wikipedia.org/wiki/Register_(C_programming_language)">register</a></code></dd>
+<dd><code>return</code></dd>
+<dd><code><a class="mw-redirect" title="Short integer" href="https://en.wikipedia.org/wiki/Short_integer">short</a></code></dd>
+<dd><code>signed</code></dd>
+<dd><code><a title="Sizeof" href="https://en.wikipedia.org/wiki/Sizeof">sizeof</a></code></dd>
+<dd><code><a title="Static (keyword)" href="https://en.wikipedia.org/wiki/Static_(keyword)">static</a></code></dd>
+</dl>
+<p>&nbsp;</p>
+</td>
+<td>
+<dl>
+<dd><code><a title="Struct (C programming language)" href="https://en.wikipedia.org/wiki/Struct_(C_programming_language)">struct</a></code></dd>
+<dd><code><a title="Switch statement" href="https://en.wikipedia.org/wiki/Switch_statement">switch</a></code></dd>
+<dd><code>typedef</code></dd>
+<dd><code>union</code></dd>
+<dd><code>unsigned</code></dd>
+<dd><code><a title="Void type" href="https://en.wikipedia.org/wiki/Void_type">void</a></code></dd>
+<dd><code><a class="mw-redirect" title="Volatile variable" href="https://en.wikipedia.org/wiki/Volatile_variable">volatile</a></code></dd>
+<dd><code><a title="While loop" href="https://en.wikipedia.org/wiki/While_loop">while</a></code></dd>
+</dl>
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>C99 reserved five more words:</p>
+<div>
+<table class="multicol">
+<tbody>
+<tr>
+<td>
+<dl>
+<dd><code>_Bool</code></dd>
+<dd><code>_Complex</code></dd>
+</dl>
+<p>&nbsp;</p>
+</td>
+<td>
+<dl>
+<dd><code>_Imaginary</code></dd>
+<dd><code><a title="Inline function" href="https://en.wikipedia.org/wiki/Inline_function">inline</a></code></dd>
+</dl>
+<p>&nbsp;</p>
+</td>
+<td>
+<dl>
+<dd><code><a title="Restrict" href="https://en.wikipedia.org/wiki/Restrict">restrict</a></code></dd>
+</dl>
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>C11 reserved seven more words:</p>
+<div>
+<table class="multicol">
+<tbody>
+<tr>
+<td>
+<dl>
+<dd><code>_Alignas</code></dd>
+<dd><code>_Alignof</code></dd>
+</dl>
+<p>&nbsp;</p>
+</td>
+<td>
+<dl>
+<dd><code>_Atomic</code></dd>
+<dd><code>_Generic</code></dd>
+</dl>
+<p>&nbsp;</p>
+</td>
+<td>
+<dl>
+<dd><code>_Noreturn</code></dd>
+<dd><code>_Static_assert</code></dd>
+</dl>
+<p>&nbsp;</p>
+</td>
+<td>
+<dl>
+<dd><code>_Thread_local</code></dd>
+</dl>
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Most of the recently reserved words begin with an underscore followed by a capital letter, because identifiers of that form were previously reserved by the C standard for use only by implementations. Since existing program source code should not have been using these identifiers, it would not be affected when C implementations started supporting these extensions to the programming language. Some standard headers do define more convenient synonyms for underscored identifiers. The language previously included a reserved word called&nbsp;<code>entry</code>, but this was seldom implemented, and has now been removed as a reserved word.</p>
+<h3><span id="Operators" class="mw-headline">Operators</span></h3>
+<p>C supports a rich set of&nbsp;<a title="Operator (computer programming)" href="https://en.wikipedia.org/wiki/Operator_(computer_programming)">operators</a>, which are symbols used within an&nbsp;<a title="Expression (computer science)" href="https://en.wikipedia.org/wiki/Expression_(computer_science)">expression</a>&nbsp;to specify the manipulations to be performed while evaluating that expression. C has operators for:</p>
+<ul>
+<li><a title="Arithmetic" href="https://en.wikipedia.org/wiki/Arithmetic">arithmetic</a>:&nbsp;<a title="Addition" href="https://en.wikipedia.org/wiki/Addition"><code>+</code></a>,&nbsp;<a title="Subtraction" href="https://en.wikipedia.org/wiki/Subtraction"><code>-</code></a>,&nbsp;<a title="Multiplication" href="https://en.wikipedia.org/wiki/Multiplication"><code>*</code></a>,&nbsp;<a title="Division (mathematics)" href="https://en.wikipedia.org/wiki/Division_(mathematics)"><code>/</code></a>,&nbsp;<a title="Modulo operation" href="https://en.wikipedia.org/wiki/Modulo_operation"><code>%</code></a></li>
+<li><a title="Assignment (computer science)" href="https://en.wikipedia.org/wiki/Assignment_(computer_science)">assignment</a>:&nbsp;<code>=</code></li>
+<li><a title="Augmented assignment" href="https://en.wikipedia.org/wiki/Augmented_assignment">augmented assignment</a>:&nbsp;<code>+=</code>,&nbsp;<code>-=</code>,&nbsp;<code>*=</code>,&nbsp;<code>/=</code>,&nbsp;<code>%=</code>,&nbsp;<code>&amp;=</code>,&nbsp;<code>|=</code>,&nbsp;<code>^=</code>,&nbsp;<code>&lt;&lt;=</code>,&nbsp;<code>&gt;&gt;=</code></li>
+<li><a title="Bitwise operation" href="https://en.wikipedia.org/wiki/Bitwise_operation">bitwise logic</a>:&nbsp;<code>~</code>,&nbsp;<code>&amp;</code>,&nbsp;<code>|</code>,&nbsp;<code>^</code></li>
+<li><a class="mw-redirect" title="Bit shift" href="https://en.wikipedia.org/wiki/Bit_shift">bitwise shifts</a>:&nbsp;<code>&lt;&lt;</code>,&nbsp;<code>&gt;&gt;</code></li>
+<li><a title="Boolean algebra" href="https://en.wikipedia.org/wiki/Boolean_algebra">boolean logic</a>:&nbsp;<code>!</code>,&nbsp;<code>&amp;&amp;</code>,&nbsp;<code>||</code></li>
+<li><a title="?:" href="https://en.wikipedia.org/wiki/%3F:">conditional evaluation</a>:&nbsp;<a title="?:" href="https://en.wikipedia.org/wiki/%3F:"><code>? :</code></a></li>
+<li>equality testing:&nbsp;<a title="Equality (mathematics)" href="https://en.wikipedia.org/wiki/Equality_(mathematics)"><code>==</code></a>,&nbsp;<a title="Inequality (mathematics)" href="https://en.wikipedia.org/wiki/Inequality_(mathematics)"><code>!=</code></a></li>
+<li><a title="Subroutine" href="https://en.wikipedia.org/wiki/Subroutine">calling functions</a>:&nbsp;<code>( )</code></li>
+<li><a title="Increment and decrement operators" href="https://en.wikipedia.org/wiki/Increment_and_decrement_operators">increment and decrement</a>:&nbsp;<code>++</code>,&nbsp;<code>--</code></li>
+<li><a title="Record (computer science)" href="https://en.wikipedia.org/wiki/Record_(computer_science)">member selection</a>:&nbsp;<code>.</code>,&nbsp;<code>-&gt;</code></li>
+<li>object size:&nbsp;<code><a title="Sizeof" href="https://en.wikipedia.org/wiki/Sizeof">sizeof</a></code></li>
+<li><a title="Order theory" href="https://en.wikipedia.org/wiki/Order_theory">order relations</a>:&nbsp;<code>&lt;</code>,&nbsp;<code>&lt;=</code>,&nbsp;<code>&gt;</code>,&nbsp;<code>&gt;=</code></li>
+<li><a title="Pointer (computer programming)" href="https://en.wikipedia.org/wiki/Pointer_(computer_programming)">reference and dereference</a>:&nbsp;<code>&amp;</code>,&nbsp;<code>*</code>,&nbsp;<code>[ ]</code></li>
+<li>sequencing:&nbsp;<a title="Comma operator" href="https://en.wikipedia.org/wiki/Comma_operator"><code>,</code></a></li>
+<li><a title="Order of operations" href="https://en.wikipedia.org/wiki/Order_of_operations#Mathematical_precedence">subexpression grouping</a>:&nbsp;<code>( )</code></li>
+<li><a title="Type conversion" href="https://en.wikipedia.org/wiki/Type_conversion">type conversion</a>:&nbsp;<code>(<em>typename</em>)</code></li>
+</ul>
+<p>C uses the operator&nbsp;<code>=</code>&nbsp;(used in mathematics to express equality) to indicate assignment, following the precedent of&nbsp;<a title="Fortran" href="https://en.wikipedia.org/wiki/Fortran">Fortran</a>&nbsp;and&nbsp;<a title="PL/I" href="https://en.wikipedia.org/wiki/PL/I">PL/I</a>, but unlike&nbsp;<a title="ALGOL" href="https://en.wikipedia.org/wiki/ALGOL">ALGOL</a>&nbsp;and its derivatives. C uses the operator&nbsp;<code>==</code>&nbsp;to test for equality. The similarity between these two operators (assignment and equality) may result in the accidental use of one in place of the other, and in many cases, the mistake does not produce an error message (although some compilers produce warnings). For example, the conditional expression&nbsp;<code>if (a == b + 1)</code>&nbsp;might mistakenly be written as&nbsp;<code>if (a = b + 1)</code>, which will be evaluated as true if&nbsp;<code>a</code>&nbsp;is not zero after the assignment.</p>
+<p>The C&nbsp;<a title="Order of operations" href="https://en.wikipedia.org/wiki/Order_of_operations">operator precedence</a>&nbsp;is not always intuitive. For example, the operator&nbsp;<code>==</code>&nbsp;binds more tightly than (is executed prior to) the operators&nbsp;<code>&amp;</code>&nbsp;(bitwise AND) and&nbsp;<code>|</code>&nbsp;(bitwise OR) in expressions such as&nbsp;<code>x &amp; 1 == 0</code>, which must be written as&nbsp;<code>(x &amp; 1) == 0</code>&nbsp;if that is the coder's intent.</p>
+<h2><span id=".22Hello.2C_world.22_example"></span><span id="&quot;Hello,_world&quot;_example" class="mw-headline"><span id="HELLOWORLD"></span>"Hello, world" example</span></h2>
+<p>The "<a title="&quot;Hello, World!&quot; program" href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program">hello, world</a>" example, which appeared in the first edition of&nbsp;<em><a title="The C Programming Language" href="https://en.wikipedia.org/wiki/The_C_Programming_Language">K&amp;R</a></em>, has become the model for an introductory program in most programming textbooks. The program prints "hello, world" to the&nbsp;<a class="mw-redirect" title="Standard output" href="https://en.wikipedia.org/wiki/Standard_output">standard output</a>, which is usually a terminal or screen display.</p>
+<p>The original version was:<sup id="cite_ref-27" class="reference"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#cite_note-27">[27]</a></sup></p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>main()
+{
+    printf("hello, world\n");
+}
+</pre>
+</div>
+<p>A standard-conforming "hello, world" program is:<sup id="cite_ref-28" class="reference"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#cite_note-28">[a]</a></sup></p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>#include &lt;stdio.h&gt;
+
+int main(void)
+{
+    printf("hello, world\n");
+}
+</pre>
+</div>
+<p>The first line of the program contains a&nbsp;<a title="Preprocessor" href="https://en.wikipedia.org/wiki/Preprocessor">preprocessing directive</a>, indicated by&nbsp;<code>#include</code>. This causes the compiler to replace that line with the entire text of the&nbsp;<code><a class="mw-redirect" title="Stdio.h" href="https://en.wikipedia.org/wiki/Stdio.h">stdio.h</a></code>&nbsp;standard header, which contains declarations for standard input and output functions such as&nbsp;<code>printf</code>&nbsp;and&nbsp;<code>scanf</code>. The angle brackets surrounding&nbsp;<code>stdio.h</code>&nbsp;indicate that&nbsp;<code>stdio.h</code>&nbsp;is located using a search strategy that prefers headers provided with the compiler to other headers having the same name, as opposed to double quotes which typically include local or project-specific header files.</p>
+<p>The next line indicates that a function named&nbsp;<code>main</code>&nbsp;is being defined. The&nbsp;<code><a class="mw-redirect" title="Main function (programming)" href="https://en.wikipedia.org/wiki/Main_function_(programming)">main</a></code>&nbsp;function serves a special purpose in C programs; the run-time environment calls the&nbsp;<code>main</code>&nbsp;function to begin program execution. The type specifier&nbsp;<code>int</code>&nbsp;indicates that the value that is returned to the invoker (in this case the run-time environment) as a result of evaluating the&nbsp;<code>main</code>&nbsp;function, is an integer. The keyword&nbsp;<code>void</code>&nbsp;as a parameter list indicates that this function takes no arguments.</p>
+<p>The opening curly brace indicates the beginning of the definition of the&nbsp;<code>main</code>&nbsp;function.</p>
+<p>The next line&nbsp;<em>calls</em>&nbsp;(diverts execution to) a function named&nbsp;<code><a class="mw-redirect" title="Printf" href="https://en.wikipedia.org/wiki/Printf">printf</a></code>, which in this case is supplied from a system&nbsp;<a title="Library (computing)" href="https://en.wikipedia.org/wiki/Library_(computing)">library</a>. In this call, the&nbsp;<code>printf</code>&nbsp;function is&nbsp;<em>passed</em>&nbsp;(provided with) a single argument, the address of the first character in the&nbsp;<a title="String literal" href="https://en.wikipedia.org/wiki/String_literal">string literal</a>&nbsp;<code>"hello, world\n"</code>. The string literal is an unnamed&nbsp;<a title="Array data type" href="https://en.wikipedia.org/wiki/Array_data_type">array</a>&nbsp;with elements of type&nbsp;<code>char</code>, set up automatically by the compiler with a final 0-valued character to mark the end of the array (<code>printf</code>&nbsp;needs to know this). The&nbsp;<code>\n</code>&nbsp;is an&nbsp;<em><a title="Escape sequences in C" href="https://en.wikipedia.org/wiki/Escape_sequences_in_C">escape sequence</a></em>&nbsp;that C translates to a&nbsp;<em><a title="Newline" href="https://en.wikipedia.org/wiki/Newline">newline</a></em>&nbsp;character, which on output signifies the end of the current line. The return value of the&nbsp;<code>printf</code>&nbsp;function is of type&nbsp;<code>int</code>, but it is silently discarded since it is not used. (A more careful program might test the return value to determine whether or not the&nbsp;<code>printf</code>&nbsp;function succeeded.) The semicolon&nbsp;<code>;</code>&nbsp;terminates the statement.</p>
+<p>The closing curly brace indicates the end of the code for the&nbsp;<code>main</code>&nbsp;function. According to the C99 specification and newer, the&nbsp;<code>main</code>&nbsp;function, unlike any other function, will implicitly return a value of&nbsp;<code>0</code>&nbsp;upon reaching the&nbsp;<code>}</code>&nbsp;that terminates the function. (Formerly an explicit&nbsp;<code>return 0;</code>&nbsp;statement was required.) This is interpreted by the run-time system as an exit code indicating successful execution.</p>
+
+
+
+
+
+
+
+
+
+
 
 
 <ul>
