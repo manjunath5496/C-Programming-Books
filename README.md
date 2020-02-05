@@ -390,23 +390,31 @@ long some_function();
 <p>The C&nbsp;<a title="Order of operations" href="https://en.wikipedia.org/wiki/Order_of_operations">operator precedence</a>&nbsp;is not always intuitive. For example, the operator&nbsp;<code>==</code>&nbsp;binds more tightly than (is executed prior to) the operators&nbsp;<code>&amp;</code>&nbsp;(bitwise AND) and&nbsp;<code>|</code>&nbsp;(bitwise OR) in expressions such as&nbsp;<code>x &amp; 1 == 0</code>, which must be written as&nbsp;<code>(x &amp; 1) == 0</code>&nbsp;if that is the coder's intent.</p>
 <h2><span id=".22Hello.2C_world.22_example"></span><span id="&quot;Hello,_world&quot;_example" class="mw-headline"><span id="HELLOWORLD"></span>"Hello, world" example</span></h2>
 <p>The "<a title="&quot;Hello, World!&quot; program" href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program">hello, world</a>" example, which appeared in the first edition of&nbsp;<em><a title="The C Programming Language" href="https://en.wikipedia.org/wiki/The_C_Programming_Language">K&amp;R</a></em>, has become the model for an introductory program in most programming textbooks. The program prints "hello, world" to the&nbsp;<a class="mw-redirect" title="Standard output" href="https://en.wikipedia.org/wiki/Standard_output">standard output</a>, which is usually a terminal or screen display.</p>
-<p>The original version was:<sup id="cite_ref-27" class="reference"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#cite_note-27">[27]</a></sup></p>
+<p>The original version was:</p>
 <div class="mw-highlight mw-content-ltr" dir="ltr">
-<pre>main()
+    
+    
+```C language
+main()
 {
     printf("hello, world\n");
 }
-</pre>
+```
+
+
 </div>
-<p>A standard-conforming "hello, world" program is:<sup id="cite_ref-28" class="reference"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#cite_note-28">[a]</a></sup></p>
+<p>A standard-conforming "hello, world" program is:</p>
 <div class="mw-highlight mw-content-ltr" dir="ltr">
-<pre>#include &lt;stdio.h&gt;
+    
+```C language
+#include <stdio.h>
 
 int main(void)
 {
     printf("hello, world\n");
 }
-</pre>
+```
+
 </div>
 <p>The first line of the program contains a&nbsp;<a title="Preprocessor" href="https://en.wikipedia.org/wiki/Preprocessor">preprocessing directive</a>, indicated by&nbsp;<code>#include</code>. This causes the compiler to replace that line with the entire text of the&nbsp;<code><a class="mw-redirect" title="Stdio.h" href="https://en.wikipedia.org/wiki/Stdio.h">stdio.h</a></code>&nbsp;standard header, which contains declarations for standard input and output functions such as&nbsp;<code>printf</code>&nbsp;and&nbsp;<code>scanf</code>. The angle brackets surrounding&nbsp;<code>stdio.h</code>&nbsp;indicate that&nbsp;<code>stdio.h</code>&nbsp;is located using a search strategy that prefers headers provided with the compiler to other headers having the same name, as opposed to double quotes which typically include local or project-specific header files.</p>
 <p>The next line indicates that a function named&nbsp;<code>main</code>&nbsp;is being defined. The&nbsp;<code><a class="mw-redirect" title="Main function (programming)" href="https://en.wikipedia.org/wiki/Main_function_(programming)">main</a></code>&nbsp;function serves a special purpose in C programs; the run-time environment calls the&nbsp;<code>main</code>&nbsp;function to begin program execution. The type specifier&nbsp;<code>int</code>&nbsp;indicates that the value that is returned to the invoker (in this case the run-time environment) as a result of evaluating the&nbsp;<code>main</code>&nbsp;function, is an integer. The keyword&nbsp;<code>void</code>&nbsp;as a parameter list indicates that this function takes no arguments.</p>
