@@ -5,7 +5,7 @@
 <p>&nbsp;</p>
 <h2><span id="Overview" class="mw-headline">Overview</span></h2>
 <div class="thumb tright">
-<div class="thumbinner"><a class="image" href="https://en.wikipedia.org/wiki/File:Ken_Thompson_and_Dennis_Ritchie--1973.jpg"><img class="thumbimage" style="display: block; margin-left: auto; margin-right: auto;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ken_Thompson_and_Dennis_Ritchie--1973.jpg/220px-Ken_Thompson_and_Dennis_Ritchie--1973.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/1/1b/Ken_Thompson_and_Dennis_Ritchie--1973.jpg 1.5x" alt="" width="220" height="143" data-file-width="310" data-file-height="201" /></a>
+<div class="thumbinner"><a class="image" href="den.jpg"><img class="thumbimage" style="display: block; margin-left: auto; margin-right: auto;" src="den.jpg" srcset="den.jpg 1.5x" alt="" width="220" height="143" data-file-width="310" data-file-height="201" /></a>
 <div class="thumbcaption" style="text-align: center;">
 <div class="magnify">&nbsp;</div>
 <strong><a title="Dennis Ritchie" href="https://en.wikipedia.org/wiki/Dennis_Ritchie">Dennis Ritchie</a>&nbsp;(right), the inventor of the C programming language, with&nbsp;<a title="Ken Thompson" href="https://en.wikipedia.org/wiki/Ken_Thompson">Ken Thompson</a></strong></div>
