@@ -109,6 +109,22 @@
 <p>While C does not include certain features found in other languages (such as&nbsp;<a title="Object-oriented programming" href="https://en.wikipedia.org/wiki/Object-oriented_programming">object orientation</a>&nbsp;and&nbsp;<a title="Garbage collection (computer science)" href="https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)">garbage collection</a>), these can be implemented or emulated, often through the use of external libraries (e.g., the&nbsp;<a title="GObject" href="https://en.wikipedia.org/wiki/GObject">GLib Object System</a>&nbsp;or the&nbsp;<a title="Boehm garbage collector" href="https://en.wikipedia.org/wiki/Boehm_garbage_collector">Boehm garbage collector</a>).</p>
 
 
+<h3><span id="Relations_to_other_languages" class="mw-headline">Relations to other languages</span></h3>
+<p>Many later languages have borrowed directly or indirectly from C, including&nbsp;<a title="C++" href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a>,&nbsp;<a title="C Sharp (programming language)" href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">C#</a>, Unix's&nbsp;<a title="C shell" href="https://en.wikipedia.org/wiki/C_shell">C shell</a>,&nbsp;<a title="D (programming language)" href="https://en.wikipedia.org/wiki/D_(programming_language)">D</a>,&nbsp;<a title="Go (programming language)" href="https://en.wikipedia.org/wiki/Go_(programming_language)">Go</a>,&nbsp;<a title="Java (programming language)" href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>,&nbsp;<a title="JavaScript" href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>&nbsp;(including&nbsp;<a title="JavaScript" href="https://en.wikipedia.org/wiki/JavaScript#transpilers">transpilers</a>),&nbsp;<a title="Limbo (programming language)" href="https://en.wikipedia.org/wiki/Limbo_(programming_language)">Limbo</a>,&nbsp;<a title="LPC (programming language)" href="https://en.wikipedia.org/wiki/LPC_(programming_language)">LPC</a>,&nbsp;<a title="Objective-C" href="https://en.wikipedia.org/wiki/Objective-C">Objective-C</a>,&nbsp;<a title="Perl" href="https://en.wikipedia.org/wiki/Perl">Perl</a>,&nbsp;<a title="PHP" href="https://en.wikipedia.org/wiki/PHP">PHP</a>,&nbsp;<a title="Python (programming language)" href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a>,&nbsp;<a title="Rust (programming language)" href="https://en.wikipedia.org/wiki/Rust_(programming_language)">Rust</a>,&nbsp;<a title="Swift (programming language)" href="https://en.wikipedia.org/wiki/Swift_(programming_language)">Swift</a>,&nbsp;<a title="Verilog" href="https://en.wikipedia.org/wiki/Verilog">Verilog</a>&nbsp;and&nbsp;<a title="SystemVerilog" href="https://en.wikipedia.org/wiki/SystemVerilog">SystemVerilog</a>&nbsp;(hardware description languages).&nbsp;These languages have drawn many of their&nbsp;<a class="mw-redirect" title="Control structures" href="https://en.wikipedia.org/wiki/Control_structures">control structures</a>&nbsp;and other basic features from C. Most of them (Python being a dramatic exception) also express highly similar&nbsp;<a title="Syntax (programming languages)" href="https://en.wikipedia.org/wiki/Syntax_(programming_languages)">syntax</a>&nbsp;to C, and they tend to combine the recognizable expression and statement&nbsp;<a title="C syntax" href="https://en.wikipedia.org/wiki/C_syntax">syntax of C</a>&nbsp;with underlying type systems, data models, and semantics that can be radically different.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <ul>
