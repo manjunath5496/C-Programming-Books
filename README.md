@@ -9,7 +9,7 @@
 <h2>Contents</h2>
 <label class="toctogglelabel" for="toctogglecheckbox"></label></div>
 <ul>
-<li class="toclevel-1 tocsection-1"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Overview"><span class="toctext">Overview</span></a>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="toctext">Overview</span></a>
 <ul>
 <li class="toclevel-2 tocsection-2"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Relations_to_other_languages"><span class="toctext">Relations to other languages</span></a></li>
 </ul>
