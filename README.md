@@ -473,7 +473,7 @@ int main(void)
 <p>Tools such as&nbsp;<a class="mw-redirect" title="IBM Rational Purify" href="https://en.wikipedia.org/wiki/IBM_Rational_Purify">Purify</a>&nbsp;or&nbsp;<a title="Valgrind" href="https://en.wikipedia.org/wiki/Valgrind">Valgrind</a>&nbsp;and linking with libraries containing special versions of the&nbsp;<a class="mw-redirect" title="Malloc" href="https://en.wikipedia.org/wiki/Malloc">memory allocation functions</a>&nbsp;can help uncover runtime errors in memory usage.</p>
 <h2><span id="Uses" class="mw-headline">Uses</span></h2>
 <div class="thumb tright">
-<div class="thumbinner"><a class="image" href="Tiobe_index.png"><img class="thumbimage" src="Tiobe_index.png/420px-Tiobe_index.png" srcset="Tiobe_index.png 1.5x, Tiobe_index.png/840px-Tiobe_index.png 2x" alt="" width="420" height="180" data-file-width="904" data-file-height="387" /></a>
+<div class="thumbinner"><a class="image" href="Tiobe_index.png"><img class="thumbimage" src="Tiobe_index.png" srcset="Tiobe_index.png 1.5x, Tiobe_index.png/840px-Tiobe_index.png 2x" alt="" width="420" height="180" data-file-width="904" data-file-height="387" /></a>
 <div class="thumbcaption">
 <div class="magnify">&nbsp;</div>
 <strong>The&nbsp;<a title="TIOBE index" href="https://en.wikipedia.org/wiki/TIOBE_index">TIOBE index</a>&nbsp;graph, showing a comparison of the popularity of various programming languages</strong></div>
