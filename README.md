@@ -3,6 +3,66 @@
 <p>C is an&nbsp;<a title="Imperative programming" href="https://en.wikipedia.org/wiki/Imperative_programming">imperative</a>&nbsp;<a title="Procedural programming" href="https://en.wikipedia.org/wiki/Procedural_programming">procedural</a>&nbsp;language. It was designed to be compiled using a relatively straightforward&nbsp;<a title="Compiler" href="https://en.wikipedia.org/wiki/Compiler">compiler</a>&nbsp;to provide&nbsp;<a title="Low-level programming language" href="https://en.wikipedia.org/wiki/Low-level_programming_language">low-level</a>&nbsp;access to&nbsp;<a title="Computer memory" href="https://en.wikipedia.org/wiki/Computer_memory">memory</a>&nbsp;and language constructs that map efficiently to&nbsp;<a title="Machine code" href="https://en.wikipedia.org/wiki/Machine_code">machine instructions</a>, all with minimal&nbsp;<a title="Runtime system" href="https://en.wikipedia.org/wiki/Runtime_system">runtime support</a>. Despite its low-level capabilities, the language was designed to encourage&nbsp;<a title="Cross-platform software" href="https://en.wikipedia.org/wiki/Cross-platform_software">cross-platform</a>&nbsp;programming. A&nbsp;<a title="Specification (technical standard)" href="https://en.wikipedia.org/wiki/Specification_(technical_standard)">standards</a>-compliant C program written with&nbsp;<a title="Porting" href="https://en.wikipedia.org/wiki/Porting">portability</a>&nbsp;in mind can be compiled for a wide variety of computer platforms and operating systems with few changes to its source code. The language is available on various platforms, from embedded&nbsp;<a title="Microcontroller" href="https://en.wikipedia.org/wiki/Microcontroller">microcontrollers</a>&nbsp;to&nbsp;<a title="Supercomputer" href="https://en.wikipedia.org/wiki/Supercomputer">supercomputers</a>.</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
+
+<div class="toctitle" dir="ltr" lang="en">
+<h2>Contents</h2>
+<label class="toctogglelabel" for="toctogglecheckbox"></label></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Overview"><span class="toctext">Overview</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Relations_to_other_languages"><span class="toctext">Relations to other languages</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-3"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#History"><span class="toctext">History</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Early_developments"><span class="toctext">Early developments</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#K&amp;R_C"><span class="toctext">K&amp;R C</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#ANSI_C_and_ISO_C"><span class="toctext">ANSI C and ISO C</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#C99"><span class="toctext">C99</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#C11"><span class="toctext">C11</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#C18"><span class="toctext">C18</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Embedded_C"><span class="toctext">Embedded C</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Syntax"><span class="toctext">Syntax</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Character_set"><span class="toctext">Character set</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Reserved_words"><span class="toctext">Reserved words</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Operators"><span class="toctext">Operators</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#%22Hello,_world%22_example"><span class="toctext">"Hello, world" example</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Data_types"><span class="toctext">Data types</span></a>
+<ul>
+<li class="toclevel-2 tocsection-17"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Pointers"><span class="toctext">Pointers</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Arrays"><span class="toctext">Arrays</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Array%E2%80%93pointer_interchangeability"><span class="toctext">Array&ndash;pointer interchangeability</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-20"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Memory_management"><span class="toctext">Memory management</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Libraries"><span class="toctext">Libraries</span></a>
+<ul>
+<li class="toclevel-2 tocsection-22"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#File_handling_and_streams"><span class="toctext">File handling and streams</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-23"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Language_tools"><span class="toctext">Language tools</span></a></li>
+<li class="toclevel-1 tocsection-24"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Uses"><span class="toctext">Uses</span></a></li>
+<li class="toclevel-1 tocsection-25"><a href="https://en.wikipedia.org/wiki/C_(programming_language)#Related_languages"><span class="toctext">Related languages</span></a></li>
+</ul>
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+
+
+
+
+
+
+
 <h2><span id="Overview" class="mw-headline">Overview</span></h2>
 <div class="thumb tright">
 <div class="thumbinner"><a class="image" href="den.jpg"><img class="thumbimage" style="display: block; margin-left: auto; margin-right: auto;" src="den.jpg" srcset="den.jpg 1.5x" alt="" width="220" height="143" data-file-width="310" data-file-height="201" /></a>
