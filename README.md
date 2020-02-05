@@ -156,7 +156,47 @@
 
 
 
+<h3><span id="K&amp;R_C" class="mw-headline">K&amp;R C</span></h3>
+<div class="thumb tright">&nbsp;</div>
+<p>In 1978,&nbsp;<a title="Brian Kernighan" href="https://en.wikipedia.org/wiki/Brian_Kernighan">Brian Kernighan</a>&nbsp;and&nbsp;<a title="Dennis Ritchie" href="https://en.wikipedia.org/wiki/Dennis_Ritchie">Dennis Ritchie</a>&nbsp;published the first edition of&nbsp;<em><a title="The C Programming Language" href="https://en.wikipedia.org/wiki/The_C_Programming_Language">The C Programming Language</a></em>.&nbsp;This book, known to C programmers as&nbsp;<em>K&amp;R</em>, served for many years as an informal&nbsp;<a title="Specification (technical standard)" href="https://en.wikipedia.org/wiki/Specification_(technical_standard)">specification</a>&nbsp;of the language. The version of C that it describes is commonly referred to as "K&amp;R C". The second edition of the book&nbsp;covers the later&nbsp;<a title="ANSI C" href="https://en.wikipedia.org/wiki/ANSI_C">ANSI C</a>&nbsp;standard, described below.</p>
+<p><em>K&amp;R</em>&nbsp;introduced several language features:</p>
+<ul>
+<li>Standard I/O library</li>
+<li><code>long int</code>&nbsp;data type</li>
+<li><code>unsigned int</code>&nbsp;data type</li>
+<li>Compound assignment operators of the form&nbsp;<code>=<em>op</em></code>&nbsp;(such as&nbsp;<code>=-</code>) were changed to the form&nbsp;<code><em>op</em>=</code>&nbsp;(that is,&nbsp;<code>-=</code>) to remove the semantic ambiguity created by constructs such as&nbsp;<code>i=-10</code>, which had been interpreted as&nbsp;<code>i&nbsp;=-&nbsp;10</code>&nbsp;(decrement&nbsp;<code>i</code>&nbsp;by 10) instead of the possibly intended&nbsp;<code>i&nbsp;=&nbsp;-10</code>&nbsp;(let&nbsp;<code>i</code>&nbsp;be -10).</li>
+</ul>
+<p>Even after the publication of the 1989 ANSI standard, for many years K&amp;R C was still considered the "<a class="mw-redirect" title="Lowest common denominator (computers)" href="https://en.wikipedia.org/wiki/Lowest_common_denominator_(computers)">lowest common denominator</a>" to which C programmers restricted themselves when maximum portability was desired, since many older compilers were still in use, and because carefully written K&amp;R C code can be legal Standard C as well.</p>
+<p>In early versions of C, only functions that return types other than&nbsp;<code>int</code>&nbsp;must be declared if used before the function definition; functions used without prior declaration were presumed to return type&nbsp;<code>int</code>.</p>
+<p>For example:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre><span class="kt">long</span> <span class="nf">some_function</span><span class="p">();</span>
+<span class="cm">/* int */</span> <span class="n">other_function</span><span class="p">();</span>
 
+<span class="cm">/* int */</span> <span class="n">calling_function</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="kt">long</span> <span class="n">test1</span><span class="p">;</span>
+    <span class="k">register</span> <span class="cm">/* int */</span> <span class="n">test2</span><span class="p">;</span>
+
+    <span class="n">test1</span> <span class="o">=</span> <span class="n">some_function</span><span class="p">();</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">test1</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span>
+          <span class="n">test2</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">else</span>
+          <span class="n">test2</span> <span class="o">=</span> <span class="n">other_function</span><span class="p">();</span>
+    <span class="k">return</span> <span class="n">test2</span><span class="p">;</span>
+<span class="p">}</span>
+</pre>
+</div>
+<p>The&nbsp;<code>int</code>&nbsp;type specifiers which are commented out could be omitted in K&amp;R C, but are required in later standards.</p>
+<p>Since K&amp;R function declarations did not include any information about function arguments, function parameter&nbsp;<a class="mw-redirect" title="Type checking" href="https://en.wikipedia.org/wiki/Type_checking">type checks</a>&nbsp;were not performed, although some compilers would issue a warning message if a local function was called with the wrong number of arguments, or if multiple calls to an external function used different numbers or types of arguments. Separate tools such as Unix's&nbsp;<a class="mw-redirect" title="Lint programming tool" href="https://en.wikipedia.org/wiki/Lint_programming_tool">lint</a>&nbsp;utility were developed that (among other things) could check for consistency of function use across multiple source files.</p>
+<p>In the years following the publication of K&amp;R C, several features were added to the language, supported by compilers from AT&amp;T (in particular&nbsp;<a title="Portable C Compiler" href="https://en.wikipedia.org/wiki/Portable_C_Compiler">PCC</a>) and some other vendors. These included:</p>
+<ul>
+<li><code><a title="Void type" href="https://en.wikipedia.org/wiki/Void_type">void</a></code>&nbsp;functions (i.e., functions with no return value)</li>
+<li>functions returning&nbsp;<code><a title="Struct (C programming language)" href="https://en.wikipedia.org/wiki/Struct_(C_programming_language)">struct</a></code>&nbsp;or&nbsp;<code><a class="mw-redirect" title="Union (computer science)" href="https://en.wikipedia.org/wiki/Union_(computer_science)">union</a></code>&nbsp;types (rather than pointers)</li>
+<li><a title="Assignment (computer science)" href="https://en.wikipedia.org/wiki/Assignment_(computer_science)">assignment</a>&nbsp;for&nbsp;<code>struct</code>&nbsp;data types</li>
+<li><a title="Enumerated type" href="https://en.wikipedia.org/wiki/Enumerated_type">enumerated types</a></li>
+</ul>
+<p>The large number of extensions and lack of agreement on a&nbsp;<a title="C standard library" href="https://en.wikipedia.org/wiki/C_standard_library">standard library</a>, together with the language popularity and the fact that not even the Unix compilers precisely implemented the K&amp;R specification, led to the necessity of standardization.</p>
 
 
 
