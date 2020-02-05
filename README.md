@@ -560,7 +560,7 @@ int main(void)
 1971-1986</a></b></li>
                                 <li><b><a target="_blank" href="https://github.com/manjunath5496/C-Programming-Books/blob/master/cibm(10).pdf" style="text-decoration:none;">Sibling Rivalry: C and C++</a></b></li>
 								
-								</ul>
+</ul>
 
 
 
